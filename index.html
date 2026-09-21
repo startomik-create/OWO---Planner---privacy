@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OWO Planner — Политика конфиденциальности</title>
+<meta name="description" content="Политика конфиденциальности мобильного приложения OWO Planner.">
+<style>
+  :root{
+    --bg:#F3EAD9; --card:#FFFFFF; --ink:#3E2F23; --muted:#8A7560; --line:#E6D9C6; --accent:#8B6F4E;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#211A14; --card:#2B221A; --ink:#F0E6D6; --muted:#B8A48C; --line:#3E3227; --accent:#C9A37A;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#211A14; --card:#2B221A; --ink:#F0E6D6; --muted:#B8A48C; --line:#3E3227; --accent:#C9A37A;
+  }
+  html{ scroll-padding-top:env(safe-area-inset-top,0px); }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Nunito","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:17px; line-height:1.65; -webkit-text-size-adjust:100%;
+  }
+  main{ max-width:700px; margin:0 auto; padding:32px 20px 56px; }
+  .brand{
+    font-family:Georgia,"Times New Roman",serif; font-weight:700; font-size:22px; letter-spacing:0.01em; margin:0 0 28px;
+  }
+  .brand span{ color:var(--muted); font-weight:400; margin-left:6px; }
+  h1{
+    font-family:Georgia,"Times New Roman",serif; font-weight:700;
+    font-size:clamp(28px,6vw,38px); line-height:1.15; margin:0 0 8px;
+  }
+  h2{
+    font-family:Georgia,"Times New Roman",serif; font-weight:700;
+    font-size:clamp(19px,4vw,22px); line-height:1.3; margin:2.2em 0 .7em;
+    padding-top:1em; border-top:1px solid var(--line);
+  }
+  p{ margin:0 0 .9em; }
+  .cl{ display:grid; grid-template-columns:3em minmax(0,1fr); column-gap:.5em; }
+  .cl .n{ color:var(--muted); font-variant-numeric:tabular-nums; }
+  ul{ margin:0 0 .9em; padding-left:1.3em; }
+  li{ margin:0 0 .7em; padding-left:.2em; }
+  a{ color:var(--accent); text-decoration-thickness:1px; text-underline-offset:3px; overflow-wrap:anywhere; }
+  a:focus-visible{ outline:3px solid var(--accent); outline-offset:2px; }
+  footer{ margin-top:40px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand">OWO<span>Planner</span></p>
+  <h1>Политика конфиденциальности</h1>
+
+  <h2>Общие положения</h2>
+  <p class="cl"><span class="n">1.1.</span><span>Настоящая Политика конфиденциальности (далее — «Политика») описывает, как мобильное приложение «OWO Planner» (далее — «Приложение») обрабатывает, хранит и защищает информацию Пользователей.</span></p>
+  <p class="cl"><span class="n">1.2.</span><span>Использование Приложения и подключение функции синхронизации означает безоговорочное согласие Пользователя с условиями настоящей Политики.</span></p>
+  <p class="cl"><span class="n">1.3.</span><span>Создатели Приложения (далее — «Администрация») уважают право Пользователей на конфиденциальность и не собирают личную информацию на сторонних серверах.</span></p>
+
+  <h2>Какие данные обрабатываются и как они хранятся</h2>
+  <p class="cl"><span class="n">2.1.</span><span>Локальное хранение: Все данные, которые Пользователь вносит в Приложение (задачи, заметки, цели, привычки, финансовые записи), хранятся локально на мобильном устройстве Пользователя.</span></p>
+  <p class="cl"><span class="n">2.2.</span><span>Синхронизация через Google Диск: Для синхронизации данных между устройствами Приложение использует сторонний сервис — Google Drive API.</span></p>
+  <p class="cl"><span class="n">2.3.</span><span>Данные синхронизации (файлы бэкапа) передаются и сохраняются непосредственно в изолированное облачное хранилище личного аккаунта Google Диска самого Пользователя. Администрация Приложения не имеет доступа к этим файлам, не может просматривать, изменять или удалять их вне интерфейса Приложения.</span></p>
+  <p class="cl"><span class="n">2.4.</span><span>Приложение не собирает, не передает и не хранит на собственных серверах учетные данные (логины и пароли) от аккаунта Google. Авторизация происходит полностью на стороне сервисов компании Google.</span></p>
+
+  <h2>Разрешения и доступы устройства</h2>
+  <p>Приложению могут требоваться следующие доступы исключительно для выполнения его функций по инициативе Пользователя:</p>
+  <ul>
+    <li>Доступ к Галерее / Фотографиям устройства — необходим только для реализации функции «Фото дня», чтобы Пользователь мог прикреплять изображения к своим записям. Фотографии хранятся локально и в бэкапе на Google Диске Пользователя.</li>
+    <li>Доступ к Интернету — необходим исключительно для выполнения синхронизации данных с личным Google Диском Пользователя.</li>
+  </ul>
+
+  <h2>Передача данных третьим лицам</h2>
+  <p class="cl"><span class="n">4.1.</span><span>Администрация не продает, не сдает в аренду и не передает личные данные Пользователей третьим лицам.</span></p>
+  <p class="cl"><span class="n">4.2.</span><span>Поскольку для синхронизации используются сервисы Google, обработка данных на стороне облака регулируется Политикой конфиденциальности компании Google (Google Privacy Policy).</span></p>
+
+  <h2>Безопасность данных</h2>
+  <p class="cl"><span class="n">5.1.</span><span>Безопасность данных на устройстве зависит от мер безопасности, принятых Пользователем (пароль на телефоне, биометрия).</span></p>
+  <p class="cl"><span class="n">5.2.</span><span>Безопасность данных в облаке обеспечивается протоколами защиты компании Google. Пользователь самостоятельно несет ответственность за сохранность доступа к своему Google-аккаунту.</span></p>
+
+  <h2>Изменения политики конфиденциальности</h2>
+  <p class="cl"><span class="n">6.1.</span><span>Администрация оставляет за собой право изменять настоящую Политику в одностороннем порядке. Актуальная версия всегда доступна внутри Приложения.</span></p>
+
+  <h2>Контактная информация</h2>
+  <p class="cl"><span class="n">7.1.</span><span>Вопросы по поводу настоящей Политики можно направлять на электронную почту: <a href="mailto:supportowoplanner@gmail.com">supportowoplanner@gmail.com</a>.</span></p>
+
+  <footer>OWO Planner</footer>
+</main>
+</body>
+</html>
